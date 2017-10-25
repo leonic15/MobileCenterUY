@@ -14,13 +14,13 @@ namespace MobileCenterUY
     public partial class App : Application
     {
         private bool showMagicView = false;
-        private string mobileCenterKey_Android = "";
+        private string mobileCenterKey_Android = "f49b4bf5-fce7-430f-a243-4f93471b97aa";
         private string mobileCenterKey_iOS = "";
 
         public App()
         {
             InitializeComponent();
-            //Wooala();
+            Wooala();
             MainPage = GetPage();
         }
 
